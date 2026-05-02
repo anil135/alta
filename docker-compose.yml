@@ -1,0 +1,9 @@
+services:
+  s3-retrieval-portal:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: s3-retrieval-portal
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

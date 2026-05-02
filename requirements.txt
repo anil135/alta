@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+python-jose
+passlib[bcrypt]
+boto3
+email-validator
+pydantic-settings
